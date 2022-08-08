@@ -79,6 +79,11 @@ body {
     
 }
 
+.dimensionImg{
+    width: 415px;
+    height: 500px;
+}
+
 
 .derecha{
     background-color: rgb(255, 180, 180);
