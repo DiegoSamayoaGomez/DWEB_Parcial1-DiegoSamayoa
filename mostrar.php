@@ -15,13 +15,19 @@
 
 
     /*
-    if(isset($_POST["submit"]))
+    if (isset($_POST ["submit"])) 
     {
- foreach($_POST["dias-semana"] as $dias-semana)
- {
-    echo "<p>" .$dias-semana. "</p> <br>";
- }
+        if(!empty($_POST["diassemana"]))
+        {
+            echo "<h3> Dia de la semana </h3>";
+            foreach($_POST["diassemana"] as $diassemana)
+            {                
+                echo "<p>" .$diassemana. "</p>";
+            }
+        }
     }
+    
+    
 */
 ?>
   
