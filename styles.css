@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    
+}
+
+
+body {
+    background-color: bisque;
+}
+
+.encabezado {
+    width: 1012px;
+    height: 150px;
+    background-color: black;
+    
+}
+
+.encabezado h1 {
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.menu {
+    width: 1012px;
+    height: 70px;
+    margin-top: 0px;
+}
+
+.menu ul {
+    background-color: rgb(105, 105, 105);
+    text-align: center;
+    padding: 25px;
+
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 26px 16px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.sel {
+    background-color: white;
+}
+
+.division{
+    display: flex;
+    background-color: white;
+    width: 1012px;
+    height: auto;
+    margin-top: -2px;
+}
+
+.izquierda{
+    background-color: rgb(191, 255, 191);
+    width: 50%;
+    height: 650px;
+    padding-left: 15px;
+ 
+}
+
+.img{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    
+}
+
+
+.derecha{
+    background-color: rgb(255, 180, 180);
+    width: 50%;
+    height: auto;
+}
+
+
+.piePag {
+    margin-top: -16px;
+    width: 1012px;
+    height: 150px;
+    background-color: #455a64;
+}
+
+.piePag p {
+    text-align: center;
+    padding: 65px;
+    color: white;
+}
+
+
+/*CENTRO - TABLAS */
+
+.centro{
+    width: 1012px;
+    height: 500px;
+    background-color: white;
+}
+
+.centro p{
+    padding: 20px;
+
+}
+
+.tabla {
+    padding-top: 120px;
+    width: 1012px;
+    height: 400px;
+    text-align: center;
+    line-height: 175%;
+    font-size: small;
+    background-color: white;
+}
+
+.tabla table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabla table {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table td:nth-child(1) {
+    font-weight: bold;
+    width: 5cm;
+}
+
+table td:nth-child(2) {
+    width: 12cm;
+}
+
+
+/*SOLICITAR*/
+.solicitar{
+    width: 1012px;
+    height: 500px;
+    background-color: white;
+   
+}
+
+.solicitar form, p{
+    padding: 15px;
+}
+
