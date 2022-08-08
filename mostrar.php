@@ -13,18 +13,15 @@
     echo "<h3>Genero: </h3>".$_POST['masculino-femenino'];
     //echo "<h3>Dia: </h3>".$_POST['dias-semana'];  
 
+    if(isset($_POST["submit"]))
+    {
+ foreach($_POST["dias-semana"] as $dias-semana)
+ {
+    echo "<p>" .$dias-semana. "</p> <br>";
+ }
+    }
 
-
-    if(isset($_POST['submit'])){
-
-        $brands = $_POST['dias-semana'];
-        foreach($brands as $item){
-echo $item . "<br>"
-
-        }
-
-        }
-    ?>
+?>
   
 
   
